@@ -1,0 +1,1 @@
+pandoc report.md --from markdown+implicit_header_references -o report.pdf --number-sections --csl ieee.csl --citeproc --bibliography=report.bib

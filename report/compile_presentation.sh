@@ -1,0 +1,1 @@
+pandoc -s -t beamer --pdf-engine=xelatex -o presentation.pdf presentation.md
