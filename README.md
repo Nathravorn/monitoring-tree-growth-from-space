@@ -1,5 +1,5 @@
 # ⚠️ Showcase-only repository ⚠️
-For confidentiality reasons, all data provided by the client company is excluded from this public repository. Some parts of the code will not work. Results and methodology details are still outlined in the report.
+For confidentiality reasons, all data provided by the client company is excluded from this public repository. Some parts of the code will not work. Results and methodology details are still outlined in the [report](report/report.pdf).
 
 # Forestry Yield Prediction Using Sentinel-1 Images
 ![The forest zone we studied as seen by the Sentinel-1 satellite](report/img/images/south_polarized.png)
