@@ -2,11 +2,13 @@
 For confidentiality reasons, all data provided by the client company is excluded from this public repository. Some parts of the code will not work. Results and methodology details are still outlined in the [report](report/report.pdf).
 
 # Forestry Yield Prediction Using Sentinel-1 Images
-![The forest zone we studied as seen by the Sentinel-1 satellite](report/img/images/south_polarized.png)
+![](report/img/images/south_polarized.png)
+*The forest zone we studied as seen by the Sentinel-1 satellite*
 
 In this project, we assessed the possibility of predicting tree volumes from radar images. We analyzed the problem of backscatter saturation, and provided estimates of the age at which this saturation should occur (around 2.5 years for the C band, and 6.2 years for the L band). We partly confirmed this by analyzing a newly-planted forest whose age was known.
 
-![Our estimate of the saturation age for C and L-band, based on a fit to ground-truth data and estimates from the tree biology literature](report/img/eda/saturation_age.png)
+![](report/img/eda/saturation_age.png)
+*Our estimate of the saturation age for C and L-band, based on a fit to ground-truth data and estimates from the tree biology literature*
 
 We also provided a method, including a normalization step and a three-scale analysis, to check for a relationship between backscatter values in SAR images and measured tree volumes. We applied the method to a forest for which we had ground-truth data and confirmed that the signal was saturated and not sensitive to variations in volume.
 
